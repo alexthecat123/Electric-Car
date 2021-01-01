@@ -5,7 +5,7 @@ This repository contains the code for a human-rideable electric car that I made 
 
 # Files:
   - **carControls.jpg** shows the functions of the analog sticks and all of the buttons on the PlayStation controller as they relate to the car.
-  - **carLEDController.ino** is the Arduino sketch that receives LED-related commands from the main Arduino and adjusts the color, pattern, or effect of the lights accordingly.
+  - **carLEDController.ino** is the Arduino sketch that receives LED-related commands from the main Arduino and adjusts the color, pattern, and effect of the lights accordingly.
   - **carLEDControllerDelay.ino** is an older version of carLEDController that uses blocking delays instead of non-blocking delays for the timings of the different lighting effects.
   - **ps2Driving.ino** is the Arduino sketch that reads the PlayStation 2 controller, generates the resulting PWM signals for controlling the motors, and sends any LED-related button presses to the LED controller Arduino over serial.
 
